@@ -1,10 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
-import React from "react";
 
-export default function Profile() {
+export default function Page() {
   return (
     <View style={styles.container}>
-      <Text>Profile</Text>
+      <Text>Velkommen til forsiden</Text>
     </View>
   );
 }
